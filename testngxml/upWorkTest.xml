@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="UpWork Search Tests" verbose="1">
+    <test name="Search developer">
+        <classes>
+            <class name="com.upwork.UpWorkSearchTest">
+                <methods>
+                    <include name="testEnterAndSubmitSearch"/>
+                    <include name="testSortingAndCheckResults"/>
+                    <include name="testCheckSkills"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
